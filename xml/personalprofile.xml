@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 	<Module>
-	  <ModulePrefs title="home">
+	  <ModulePrefs title="Profile Link">
 	    <Require feature="opensocial-templates"/>
 	    <Require feature="opensocial-data"/>
-	    <Require feature="views"/>
+	    <Require feature="home"/>
 	    <Require feature="dynamic-height"/>
 	    <Require feature="osapi"/>
 	  </ModulePrefs>

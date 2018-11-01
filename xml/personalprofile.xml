@@ -7,7 +7,7 @@
 	    <Require feature="dynamic-height"/>
 	    <Require feature="osapi"/>
 	  </ModulePrefs>
-	  <Content type="html" view="home">
+	  <Content type="html" view="Home View">
 	  <![CDATA[
 		<!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>-->
 	       <script src='../resource/js/jquery.min.js' type='text/javascript'></script>

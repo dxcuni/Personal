@@ -16,7 +16,9 @@
 			   var  errorAPIRoleAssigmnet = "Insufficient Privileges: You do not have Can add required/optional role for self privilege on Person, Internal";
 			   var varRoleDetailPDFlocation ;//= "https://raw.githubusercontent.com/poc-org/initiative/itg/doc/";
 		   /* Global Varaibles END */ 
+                  alert("sahkeel");
 		viewData = gadgets.views.getParams();   
+alert("sahkeel111");
 		    sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);
 		    employeeID = $.trim(viewData.sabaContext.userId) ;

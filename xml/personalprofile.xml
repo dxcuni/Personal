@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-	<Module>	  
-        
+	<Module>
 	<ModulePrefs title="API Demo">
 	    <Require feature="opensocial-templates"/>
 	    <Require feature="opensocial-data"/>
@@ -23,12 +22,12 @@
 			   var  errorAPIRoleAssigmnet = "Insufficient Privileges: You do not have Can add required/optional role for self privilege on Person, Internal";
 			   var varRoleDetailPDFlocation ;//= "https://raw.githubusercontent.com/poc-org/initiative/itg/doc/";
 		   /* Global Varaibles END */ 
-                  alert("sahkeel");
+                  alert("shakeel");
 		viewData = gadgets.views.getParams();   
-alert("sahkeel111");
+alert("shakeel111");
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    //userName = $.trim(viewData.sabaContext.userName);
-			alert("UserName: " viewData.sabaContext)
+			alert("UserName: " viewData.sabaContext.userName)
 		    employeeID = $.trim(viewData.sabaContext.userId) ;
 			alert("employeeID: " employeeID)
 		    urlAPIRole =  $.trim(decodeURIComponent(viewData.sabaParams.saba_api_url))+'/v1/' ;

@@ -26,10 +26,10 @@
 		viewData = gadgets.views.getParams();   
 alert("shakeel111");
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
-		    //userName = $.trim(viewData.sabaContext.userName);
-			alert("UserName: " viewData.sabaContext.userName)
+		    //userName = $.trim(viewData.sabaContext);
+			alert("UserName: "+ viewData.sabaContext.userName)
 		    employeeID = $.trim(viewData.sabaContext.userId) ;
-			alert("employeeID: " employeeID)
+			alert("employeeID: "+ employeeID)
 		    urlAPIRole =  $.trim(decodeURIComponent(viewData.sabaParams.saba_api_url))+'/v1/' ;
                   //alert(userName +" -- "+employeeID);
 	   // gadgets.util.registerOnLoadHandler(init);

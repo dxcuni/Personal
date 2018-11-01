@@ -42,15 +42,15 @@ alert("shakeel111");
 	    <div id="divRoleForm">
 		<div>
 		    <center>
-			<table border="10" cellpadding="10" cellspacing="10" >
+		       <table border="10" cellpadding="10" cellspacing="10" >
 			    <tr>
 				<td align="center"  style="font-weight:bold;">
-				    Please Enter Your Initiative/ Program Code
+				    Profile Links
 				</td>
 			    </tr>
 			    <tr>                            
 				    <td align="center" >
-					<input type="text" id="searchRoleParam" size="40">
+					 My Profile 
 				    </td>
 			    </tr>
 			    <tr>
@@ -58,8 +58,7 @@ alert("shakeel111");
 				    <table align="center">
 					<tr>
 					    <td align="center">
-						<input type="button" id="btnRoleSubmit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;                                    
-						<input type="button" id="btnRoleCancel" value="Cancel">
+						My Plan
 					    </td>
 					</tr>
 				    </table>

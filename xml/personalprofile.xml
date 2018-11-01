@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 	<Module>	  
-        <ModulePrefs title="Profile Link" />
+        
+	<ModulePrefs title="API Demo">
+	    <Require feature="opensocial-templates"/>
+	    <Require feature="opensocial-data"/>
+	    <Require feature="views"/>
+	    <Require feature="dynamic-height"/>
+	    <Require feature="osapi"/>
+	  </ModulePrefs>
         <Content type="html" view="home">
 	  <![CDATA[
 		<!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>-->

@@ -30,7 +30,7 @@ alert("shakeel111");
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
 		    currentURL = $(location).attr('href');
-		    currentURLHost = $(location).attr('protocol')+"//"+$(location).attr('hostname');
+		    currentURLHost = $(location).attr('protocol')+"/"+$(location).attr('hostname');
 
     		    MyProfileURL = currentURLHost+URLVaraibale+"basicinfo/"+employeeID;	
                     MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;

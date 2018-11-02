@@ -23,8 +23,8 @@
 			   var varRoleDetailPDFlocation ;//= "https://raw.githubusercontent.com/poc-org/initiative/itg/doc/";
 			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
-		viewData = gadgets.views.getParams();   
-alert("shakeeTTT");
+		   viewData = gadgets.views.getParams();   
+alert("shakeeTTTHHH");
 
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			

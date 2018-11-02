@@ -30,14 +30,14 @@ alert("shakeel111");
 		    userName = $.trim(viewData.sabaContext.userName);			
 		    employeeID = $.trim(viewData.sabaContext.userId) ;			
 		    currentURL = $(location).attr('href');
-		    currentURLHost = $(location).attr('hostname');
+		    currentURLHost = $(location).attr('protocol')+"//"+$(location).attr('hostname');
 
     		    MyProfileURL = currentURLHost+URLVaraibale+"basicinfo/"+employeeID;	
                     MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
 		    MyPlanURL = currentURLHost+URLVaraibale+"plans/"+employeeID	;
 		    MySkillManagementURL = currentURLHost+URLVaraibale+"plans/"+employeeID;
-			alert(MyProfileURL +" -- "+MyCompLearningURL );
-			console.log(MyProfileURL);
+			alert(currentURL +" -- "+currentURLHost );
+			alert(MyProfileURL);
 			console.log(MyCompLearningURL);
 			console.log(MyPlanURL);
 			console.log(MySkillManagementURL);

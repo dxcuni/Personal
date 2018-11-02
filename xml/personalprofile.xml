@@ -21,16 +21,29 @@
 			   var refreshInterval=1;
 			   var  errorAPIRoleAssigmnet = "Insufficient Privileges: You do not have Can add required/optional role for self privilege on Person, Internal";
 			   var varRoleDetailPDFlocation ;//= "https://raw.githubusercontent.com/poc-org/initiative/itg/doc/";
+			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
 		viewData = gadgets.views.getParams();   
 alert("shakeel111");
 
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
-		   userName = $.trim(viewData.sabaContext.userName);			
-		   employeeID = $.trim(viewData.sabaContext.userId) ;			
-		   currentURL = $(location).attr('href');
+		    userName = $.trim(viewData.sabaContext.userName);			
+		    employeeID = $.trim(viewData.sabaContext.userId) ;			
+		    currentURL = $(location).attr('href');
+		    currentURLHost = $(location).attr('hostname');
+
+    		    MyProfileURL = currentURLHost+URLVaraibale+"basicinfo/"+employeeID;	
+                    MyCompLearningURL = currentURLHost+URLVaraibale+"learningtranscripts/"+employeeID;
+		    MyPlanURL = currentURLHost+URLVaraibale+"plans/"+employeeID	;
+		    MySkillManagementURL = currentURLHost+URLVaraibale+"plans/"+employeeID;
+			alert(MyProfileURL +" -- "+MyCompLearningURL );
+			console.log(MyProfileURL);
+			console.log(MyCompLearningURL);
+			console.log(MyPlanURL);
+			console.log(MySkillManagementURL);
+
 		   //urlAPIRole =  $.trim(decodeURIComponent(viewData.sabaParams.saba_url))+'/v1/' ;
-                  alert(userName +" -- "+employeeID +"---"+currentURL);
+                  //alert(userName +" -- "+employeeID );
 
 	   // gadgets.util.registerOnLoadHandler(init);
 	   

@@ -24,7 +24,7 @@
 			   var URLVaraibale =	"/Saba/Web_spf/NA3T1SNB0081/common/profile/"
 		   /* Global Varaibles END */ 
 		viewData = gadgets.views.getParams();   
-alert("shakeel111");
+alert("shakee222");
 
 		   // sabaCertificate =  viewData.sabaContext.apiCertificate;
 		    userName = $.trim(viewData.sabaContext.userName);			
@@ -47,9 +47,7 @@ alert("shakeel111");
 
 	   // gadgets.util.registerOnLoadHandler(init);
 	   
-	    </script>
-	    <!-- Header of the Page Start -->
-	    <!-- Header of the Page END-->
+	    </script>	
 	    <!-- Search Box Start-->
 	<div  style="height:600px">
 	    <div id="divRoleForm">
